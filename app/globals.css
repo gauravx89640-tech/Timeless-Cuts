@@ -1,0 +1,123 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@font-face {
+  font-family: 'Luckiest Guy';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('https://cdn.jsdelivr.net/fontsource/fonts/luckiest-guy@latest/latin-400-normal.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200 1000;
+  src: url('https://cdn.jsdelivr.net/fontsource/fonts/nunito-sans:vf@latest/latin-wght-normal.woff2') format('woff2-variations');
+}
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Timeless Cuts Exact Color Palette */
+  --navy: #10223D;
+  --footer-navy: #0C1B33;
+  --taxi-yellow: #FFC83D;
+  --taxi-yellow-hover: #F4B51F;
+  --teal: #1FA7A3;
+  --sky-blue: #DDF5FF;
+  --soft-mint: #E7F8F2;
+  --coral: #FF6F59;
+  --peach: #FFE8D9;
+  --butter-yellow: #FFF3C4;
+  --cream: #FFF9ED;
+  --white: #FFFFFF;
+  --soft-border: #EADFCB;
+  --muted-text: #4B5A6A;
+  
+  /* Design tokens mapped to palette */
+  --background: var(--cream);
+  --foreground: var(--navy);
+  --card: var(--white);
+  --card-foreground: var(--navy);
+  --popover: var(--white);
+  --popover-foreground: var(--navy);
+  --primary: var(--teal);
+  --primary-foreground: var(--white);
+  --secondary: var(--taxi-yellow);
+  --secondary-foreground: var(--navy);
+  --muted: var(--soft-border);
+  --muted-foreground: var(--muted-text);
+  --accent: var(--coral);
+  --accent-foreground: var(--white);
+  --destructive: #ef4444;
+  --destructive-foreground: var(--white);
+  --border: var(--soft-border);
+  --input: var(--soft-border);
+  --ring: var(--teal);
+  --radius: 1rem;
+}
+
+@theme inline {
+  --font-sans: 'Nunito Sans', sans-serif;
+  --font-display: 'Luckiest Guy', cursive;
+  --font-mono: 'Geist Mono', 'Geist Mono Fallback';
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  
+  /* Custom color tokens for direct use */
+  --color-navy: var(--navy);
+  --color-footer-navy: var(--footer-navy);
+  --color-taxi-yellow: var(--taxi-yellow);
+  --color-taxi-yellow-hover: var(--taxi-yellow-hover);
+  --color-teal: var(--teal);
+  --color-sky-blue: var(--sky-blue);
+  --color-soft-mint: var(--soft-mint);
+  --color-coral: var(--coral);
+  --color-peach: var(--peach);
+  --color-butter-yellow: var(--butter-yellow);
+  --color-cream: var(--cream);
+  --color-soft-border: var(--soft-border);
+  --color-muted-text: var(--muted-text);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  h1,
+  h2 {
+    font-family: var(--font-display);
+    font-weight: 400;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
