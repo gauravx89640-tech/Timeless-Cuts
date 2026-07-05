@@ -8,7 +8,7 @@ const galleryImages = [
     span: "col-span-2 row-span-2",
   },
   {
-    src: "https://scontent.fbho3-1.fna.fbcdn.net/v/t39.30808-6/632457267_122170598936714826_1326643763397400191_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=cM59loNw_6oQ7kNvwFzwvp1&_nc_oc=AdrPt69dryLA5X_9MF64f_98KGmAvkqKTdihxJuHQZulPhh6gVvANEgfQ8G2B9ep8fJiidmwkJcBh-sfTpor35Tl&_nc_zt=23&_nc_ht=scontent.fbho3-1.fna&_nc_gid=siPb-b9LMMgbB-QCledbpg&_nc_ss=7b2a8&oh=00_Af76o3y_7LDpXqv1-qbTI55QA7N5hoRgBuZdBZoOxU-JaA&oe=6A1DD765",
+    src: "/client1.jpg",
     alt: "Client haircut",
     span: "col-span-1 row-span-1",
   },
@@ -18,7 +18,7 @@ const galleryImages = [
     span: "col-span-1 row-span-1",
   },
   {
-    src: "https://scontent.fbho3-6.fna.fbcdn.net/v/t39.30808-6/631806925_122170598924714826_3847775262481799915_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=kLUfK_eZ45MQ7kNvwESuXxu&_nc_oc=AdobnbEv3Rey6c83YnY0-QEpOh3Zc-iGW8Qrg3i8vnUPifcJepD0MZwBIeClGBbnM8W0jqDWUpD3kxybcMoT8AGs&_nc_zt=23&_nc_ht=scontent.fbho3-6.fna&_nc_gid=BcFRI-R4OkVUoVchvD20jQ&_nc_ss=7b2a8&oh=00_Af4T6RLJ87wC_7khT_T8jbv0jY4088WrmWL8eFKZ7-ahsg&oe=6A1DC954",
+    src: "/client2.jpg",
     alt: "Smiling client",
     span: "col-span-1 row-span-2",
   },
@@ -30,6 +30,16 @@ const galleryImages = [
   {
     src: "https://4d5237c30a356d151256-061d1325504a8536a91576f3d0153286.ssl.cf2.rackcdn.com/Original/187320228_355766$2026_01_10_18_16_53_4635.png",
     alt: "Haircut in progress",
+    span: "col-span-1 row-span-1",
+  },
+  {
+    src: "/smilingclient2.jpg",
+    alt: "Happy client in the car chair",
+    span: "col-span-1 row-span-1",
+  },
+  {
+    src: "/car.jpg",
+    alt: "Timeless Cuts salon room with car chair",
     span: "col-span-1 row-span-1",
   },
 ]

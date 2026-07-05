@@ -10,7 +10,7 @@ export function MeetDeanna() {
           <div className="relative">
             <div className="relative rounded-3xl overflow-hidden shadow-xl aspect-[4/5] max-w-sm mx-auto lg:mx-0">
               <Image
-                src="https://scontent.fbho3-4.fna.fbcdn.net/v/t39.30808-6/642810391_122172313964714826_4435177129306303454_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=XoihrXiL4LoQ7kNvwG0c_PH&_nc_oc=AdpFh56wdclngxSwYlzbmAVBPCYgV4Hinb06uuBiqeU0DX4nH3A3-N6aIa5IHJzJvzllZ9g7AJabh6TJodrdHbUg&_nc_zt=23&_nc_ht=scontent.fbho3-4.fna&_nc_gid=i50AxxRzibVtl_W1f7BxTQ&_nc_ss=7b289&oh=00_Af4RtwanRrQSHb7-0eoYW3sk4I8TpTlJ_unpjHhCNpe2sw&oe=6A1DD73F"
+                src="/deanna.jpg"
                 alt="Deanna, owner and stylist at Timeless Cuts"
                 fill
                 className="object-cover object-top"

@@ -31,7 +31,7 @@ export function FirstHaircut() {
             
             <div className="relative rounded-3xl overflow-hidden shadow-xl border-4 border-[#FFC83D]/30">
               <Image
-                src="https://scontent.fbho3-1.fna.fbcdn.net/v/t39.30808-6/545548361_122153084438714826_819857640580748456_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=DEafWpGY4lcQ7kNvwEnX8fm&_nc_oc=AdrhSeT7G2nk6xRfIDd0QhMA0wNd6I92R2hu4X4QHXKNNTSrkD7Kd6uI0ADvGqAMYjGYg86UwnKM-CW5dhJA0nti&_nc_zt=23&_nc_ht=scontent.fbho3-1.fna&_nc_gid=vnqjaDD8d1VDrboNcgTFvQ&_nc_ss=7b2a8&oh=00_Af5WZtxfWk9QaTCmYxWWhWJrnxiu-Qv7LrfrefForO3qvg&oe=6A1DC7B6"
+                src="/smilingclient.jpg"
                 alt="Happy child during first haircut at Timeless Cuts"
                 width={600}
                 height={450}
